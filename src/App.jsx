@@ -48,7 +48,7 @@ function App() {
         </section>
         <section>
           <h2>Contact Us</h2>
-          <p>For inquiries, please reach out to us at info@omnia-inc.example.com.</p>
+          <p>For inquiries, please reach out to us at jhljheel@gmail.com.</p>
         </section>
       </main>
       <footer>
