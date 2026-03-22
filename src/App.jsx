@@ -18,12 +18,44 @@ function App() {
         </section>
         <section>
           <h2>Featured Projects</h2>
-          <p>
-            Check out our latest project: 
-            <a href="https://convert.jheels.in" target="_blank" rel="noopener noreferrer">
-              YouTube Music to Spotify Playlist Converter
-            </a>
-          </p>
+          <ul>
+            <li>
+              <a href="https://convert.jheels.in" target="_blank" rel="noopener noreferrer">
+                YouTube Music to Spotify Playlist Converter
+              </a>
+              — Convert your YouTube Music playlists to Spotify.
+            </li>
+            <li>
+              <a href="https://linkfolio-beta.vercel.app" target="_blank" rel="noopener noreferrer">
+                Linkfolio
+              </a>
+              — A bio link page builder with multiple themes, similar to Linktree.
+            </li>
+            <li>
+              <a href="https://flames-calculator-rho.vercel.app" target="_blank" rel="noopener noreferrer">
+                Flames Calculator
+              </a>
+              — A fun FLAMES relationship calculator web app.
+            </li>
+            <li>
+              <a href="https://playlist-converter-fe.vercel.app" target="_blank" rel="noopener noreferrer">
+                Playlist Converter
+              </a>
+              — Frontend for converting playlists across music platforms.
+            </li>
+            <li>
+              <a href="https://home-base-roan.vercel.app" target="_blank" rel="noopener noreferrer">
+                Home Base
+              </a>
+              — A personal home base dashboard app.
+            </li>
+            <li>
+              <a href="https://music-player-frontend-six.vercel.app" target="_blank" rel="noopener noreferrer">
+                Music Player
+              </a>
+              — A custom music player frontend built with React and Tailwind CSS.
+            </li>
+          </ul>
         </section>
         <section>
           <h2>Contact Us</h2>
