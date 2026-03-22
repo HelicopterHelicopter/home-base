@@ -1,4 +1,5 @@
 import './App.css'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
       <footer>
         <p>&copy; 2024 Omnia Inc. All rights reserved.</p>
       </footer>
+      <Analytics />
     </>
   )
 }
