@@ -38,18 +38,6 @@ function App() {
               — A fun FLAMES relationship calculator web app.
             </li>
             <li>
-              <a href="https://playlist-converter-fe.vercel.app" target="_blank" rel="noopener noreferrer">
-                Playlist Converter
-              </a>
-              — Frontend for converting playlists across music platforms.
-            </li>
-            <li>
-              <a href="https://home-base-roan.vercel.app" target="_blank" rel="noopener noreferrer">
-                Home Base
-              </a>
-              — A personal home base dashboard app.
-            </li>
-            <li>
               <a href="https://music-player-frontend-six.vercel.app" target="_blank" rel="noopener noreferrer">
                 Music Player
               </a>
