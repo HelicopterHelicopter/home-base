@@ -1,42 +1,136 @@
-#root {
-  max-width: 1280px;
+.site {
+  max-width: 42rem;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.rope-inner {
+  width: 100%;
+  padding: 0.35rem 0 0.75rem;
+}
+
+.hero-washi {
+  margin-bottom: 1rem;
+  opacity: 0.92;
+}
+
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.contact-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-note {
+  max-width: 28rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+.project-list {
+  margin-top: 0.5rem;
+  text-align: left;
+}
+
+.craft-block {
+  text-align: left;
+}
+
+.hero-center {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.site a.project-title {
+  color: var(--craft-orange);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.site a.project-title:hover {
+  color: var(--craft-blue);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.site a.inline-link {
+  color: var(--craft-pink);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
-.card {
-  padding: 2em;
+.site a.inline-link:hover {
+  color: var(--craft-orange);
 }
 
-.read-the-docs {
-  color: #888;
+/* StickyNote pink wash — avoid pink-on-pink for the mailto */
+.site .contact-note a.contact-email {
+  color: var(--craft-ink);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.site .contact-note a.contact-email:hover {
+  color: var(--craft-blue);
+}
+
+.section-title {
+  font-family: var(--craft-font-marker, inherit);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  color: var(--craft-ink);
+}
+
+.hero-title {
+  font-family: var(--craft-font-display, inherit);
+  font-size: clamp(2.25rem, 6vw, 3.25rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 0.5rem;
+  color: var(--craft-ink);
+}
+
+.hero-tagline {
+  font-family: var(--craft-font-marker, inherit);
+  font-size: 1.2rem;
+  color: var(--craft-muted);
+  margin: 0;
+}
+
+.section-copy {
+  font-family: var(--craft-font-marker, inherit);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0;
+  color: var(--craft-ink);
+}
+
+.main-inner {
+  padding-top: 0.5rem;
+}
+
+.stack > * + * {
+  margin-top: 1.25rem;
+}
+
+.site-footer {
+  padding-top: 1.5rem;
+}
+
+.footer-copy {
+  font-family: var(--craft-font-marker, inherit);
+  font-size: 0.95rem;
+  color: var(--craft-muted);
+  margin: 0;
+  text-align: center;
 }
