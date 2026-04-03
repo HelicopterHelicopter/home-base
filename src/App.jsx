@@ -27,6 +27,16 @@ function App() {
               — Convert your YouTube Music playlists to Spotify.
             </li>
             <li>
+              <a href="https://craft-ui.jheels.in" target="_blank" rel="noopener noreferrer">
+                Craft UI
+              </a>
+              (
+              <a href="https://www.npmjs.com/package/@kuboxx/craft-ui" target="_blank" rel="noopener noreferrer">
+                @kuboxx/craft-ui
+              </a>
+              ) — React components with a handmade desk look: paper surfaces, rope frames, and a crayon palette. Docs and examples in Storybook; ships ready-to-use CSS, no Tailwind required in consuming apps.
+            </li>
+            <li>
               <a href="https://linkfolio-beta.vercel.app" target="_blank" rel="noopener noreferrer">
                 Linkfolio
               </a>
