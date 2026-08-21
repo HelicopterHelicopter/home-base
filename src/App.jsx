@@ -155,6 +155,11 @@ function App() {
         </RopeFrame>
 
         <footer className="site-footer">
+          <p className="footer-copy">
+            <a className="inline-link" href="/privacy">
+              Privacy Policy
+            </a>
+          </p>
           <p className="footer-copy">&copy; 2026 Omnia Inc. All rights reserved.</p>
         </footer>
       </div>

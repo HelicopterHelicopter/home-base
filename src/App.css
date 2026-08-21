@@ -134,3 +134,29 @@
   margin: 0;
   text-align: center;
 }
+
+/* --- Privacy policy page --- */
+.policy-subtitle {
+  font-family: var(--craft-font-marker, inherit);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 1.5rem 0 0.5rem;
+  color: var(--craft-ink);
+}
+
+.policy-para {
+  margin-top: 0.75rem;
+}
+
+.policy-list {
+  margin-top: 0.75rem;
+  text-align: left;
+}
+
+.policy-list > * + * {
+  margin-top: 0.5rem;
+}
+
+.site-footer .footer-copy + .footer-copy {
+  margin-top: 0.5rem;
+}
